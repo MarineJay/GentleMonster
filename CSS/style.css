@@ -3,17 +3,12 @@
 @import url(layout.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 @font-face {
-    font-family: 'NanumHumanTTFBold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/NanumHumanTTFBold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-font-face {
-    font-family: 'SunBatang-Light';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'GowunDodum-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -24,8 +19,7 @@ font-face {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'NanumHumanTTFBold';
-    scroll-behavior: smooth; /* 스크롤 애니메이션 추가 */
+    font-family: 'GowunDodum-Regular'
 }
 
 body {
@@ -118,9 +112,8 @@ header {
   
   .title-text{
     border: 5px solid #000;
-    width: cover;
     display: flex;
-    white-space: nowrap;  /* 텍스트가 가로로 나열되면서 밑으로 떨어지는것을 막기 위함 */
+    white-space: nowrap;
     font-size: 20px;
     font-weight: bold;
     color: #000000;
@@ -172,12 +165,10 @@ header {
     left: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
-    color: #black;
-    z-index: 100px;
-    
+    color: black;
 }
 
-/* .hero-text h1 { */
+.hero-text h1 {
     font-size: 48px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -443,7 +434,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 100px 50px;
-    margin: 40px 500;
+    margin: 0px;
 }
 
 .newsletter h2 {
@@ -552,7 +543,6 @@ footer {
 .social-icons a:hover {
     background-color: #000;
     color: #fff;
-    border-color: #000;
 }
 
 .copyright {
@@ -649,8 +639,6 @@ footer {
         font-size: 16px;
     }
 }
-
-
 
 
 
